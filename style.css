@@ -1,0 +1,21 @@
+body {
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.interactive-heading {
+    color: #333;
+    font-size: 3rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.interactive-heading:hover {
+    color: #007bff;
+    transform: scale(1.1);
+}
